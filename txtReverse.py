@@ -2,7 +2,7 @@ def do():
     global original_text
     global reversed_text
 
-    original_text = input("\nнеповторимый оригинал : ")
+    original_text = input("\noriginal : ")
     reversed_text = ""
 
     i = len(original_text) - 1
@@ -11,7 +11,7 @@ def do():
         reversed_text = reversed_text + original_text[i]
         i -= 1
 
-    print("жалкое пародие : {}".format(reversed_text))
+    print("\nreversed : {}".format(reversed_text))
     do()
 
 
